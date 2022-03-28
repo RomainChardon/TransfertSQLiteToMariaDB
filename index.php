@@ -40,7 +40,7 @@ catch (Exception $e)
 
 try
 {
-    $bddMysql = new PDO('mysql:host=localhost;dbname=CalendrierVacance;charset=utf8', 'root', 'root');
+    $bddMysql = new PDO('mysql:host=localhost;dbname=;charset=utf8', '', '');
     echo "BDD MySql OK ! <br>";
 }
 catch (Exception $e)
